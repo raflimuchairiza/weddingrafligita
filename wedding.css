@@ -1,0 +1,27 @@
+body {
+    background: #f8f3ed;
+    color: #4a4036;
+    font-family: 'Georgia', serif;
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.25),
+        rgba(0,0,0,0.25)
+    ),
+    url('foto.jpg') center/cover;
+}
+
+h1 {
+    font-size: 55px;
+    color: #d4af37;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
